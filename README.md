@@ -1,11 +1,11 @@
-# Private Sinopia docker container
+# Private NPM sinopia docker container
 
 This repo shows how to start a private Sinopia to store private scoped packages
 
 
 ## Install 
 
-Install docker and docker-compose. Then get into this repo folder and run: 
+Install `docker` and `docker-compose`. Then get into this repo folder and run: 
 
 ```sh
 $> docker-compose up sinopia
@@ -75,4 +75,10 @@ $> npm-myco publish // and your package will be publish to your private registry
 The image stores packages in `/opt/sinopia/storage` forlder that is shared with the host. Check the provided `docker-compose.yml` and change the volume to your needs.
 
 
+## More info
+
+ - [docker-sinopia image](https://github.com/kfatehi/docker-sinopia)
+ - [sinopia](https://www.npmjs.com/package/sinopia)
+ - [npm scoped packages](https://docs.npmjs.com/misc/scope)
+ - [npmrc config](https://docs.npmjs.com/files/npmrc)
 
