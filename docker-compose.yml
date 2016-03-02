@@ -1,0 +1,10 @@
+
+sinopia:
+
+  image: keyvanfatehi/sinopia:latest
+  ports: 
+   - "4873:4873"
+  volumes:
+   - ./storage:/opt/sinopia/storage
+   - ./config.yaml:/opt/sinopia/config.yaml
+  
